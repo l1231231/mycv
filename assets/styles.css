@@ -1,0 +1,84 @@
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size:62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing:border-box;
+}
+.main{
+    display: flex;
+    position: relative;
+}
+
+.infoleft{
+    position: fixed;
+    background-color:#888;
+    width: 20%;
+    height: 590px;
+}
+.navbar{
+    
+}
+.nav-item{
+    list-style: none;
+    height:50px;
+    font-size: 2.2rem;
+    margin: 10px 0 10px 0;
+}
+li:hover{
+    background-color:#999;
+}
+.nav-link{
+    text-decoration: none;
+}
+a:visited, a:hover, a:active {
+    color: inherit;
+  }
+.nav-text{
+    /* display: none; */
+}
+.nav-icon{
+    width: 25px;
+    margin-right:10px;
+    margin-left: 10px;
+
+}
+.picture{
+    display:flex;
+    justify-content:center;
+}
+.avatar{
+    width: 90px;
+    height: 90px;
+    border-radius:50px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.info{
+    width: 80%;
+    margin-left: 20%;
+    display: inline-block;
+    
+}
+
+.info-about{
+    margin-top:15px;
+    margin-left: 20px;
+
+}
+#about-fullName{
+    font-size:6.8rem;
+    color:#333;
+   
+}
+#about-job {
+   font-size:1.8rem;
+   font-weight: 300;
+}
+#about-birthday{
+    font-size:1.6rem;
+    font-weight: 300;
+}
